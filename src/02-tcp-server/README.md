@@ -5,7 +5,7 @@ This example will explain how to raise the most basic TCP server, which also acc
 ## How to
 
 * To launch the example run:
-  `deno run --allow-net=:8000 src/tcp-server/index.tsx`
+  `deno run --allow-net=:8000 src/02-tcp-server/index.ts`
   This will open the tcp server accepting connections on port 8000
 
 * To send incoming data to TCP server, just open terminal

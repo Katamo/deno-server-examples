@@ -8,7 +8,7 @@ The example will get the js file `(my-file.ts)` compile the file and serve as an
 
 ## How to
 * To launch the example run:
-  `deno run --allow-all src/bundle-and-serve/index.ts`
+  `deno run --allow-all src/05-bundle-and-serve-js/index.ts`
   This will open the http server accepting connections on port 8000 to serve you js files built on the fly.
 
 

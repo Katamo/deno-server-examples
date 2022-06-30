@@ -5,7 +5,7 @@ This example uses it, it builds a basic http server, that awaits for http connec
 ## How to
 
 * To launch the example run:
-  `deno run --allow-net=:8000 src/http-server-html/index.tsx`
+  `deno run --allow-net=:8000 src/04http-server-html/index.ts`
   This will open the http server accepting connections on port 8000
 
 * To check the server is up and accepting requests just open your browser and navigate to `http://localhost:8000`

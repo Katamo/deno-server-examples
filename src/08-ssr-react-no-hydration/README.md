@@ -8,6 +8,6 @@ The file will simpe creqate an alias for every imported URL block. Check it out!
 ## How to
 
 * To launch the example run:
-  `deno run --allow-net=:8000 src/ssr-react/index.tsx`
+  `deno run --allow-net=:8000 src/07-ssr-react-no-hydration/index.tsx`
 
 Notice this time again, the code generated is not hydrated in client, just the response is passed as a string.

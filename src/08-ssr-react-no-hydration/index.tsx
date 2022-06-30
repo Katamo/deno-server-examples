@@ -5,7 +5,10 @@ import {
 
 
 const App = () => (
-  <div>this is APP Component</div>
+  <div>
+    <div>this is APP Component</div>
+    <button onClick={() => console.log("clicked")}>Click me</button>
+  </div>
 );
 
 const result = ReactDOMServer.renderToString(App());
@@ -13,7 +16,8 @@ const result = ReactDOMServer.renderToString(App());
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 
-function handler(req:any) {
+// deno-lint-ignore no-explicit-any
+function handler(_req: any) {
   const html =`
     <html>
       <head>

@@ -4,7 +4,7 @@ We will create an http-server the same way we would create a basic TCP server.
 
 ## How to
 * To launch the example run:
-  `deno run --allow-net=:8000 src/http-server/index.tsx`
+  `deno run --allow-net=:8000 src/03-http-server/index.ts`
   This will open the http server accepting connections on port 8000 and returning back some data.
   In this case the server should return the user agent data received in the incomming message.
 

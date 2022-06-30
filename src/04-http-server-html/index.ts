@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 
+// deno-lint-ignore no-explicit-any
 function handler(req:any) {
   const url = new URL(req.url);
   const searchParams = Array.from(Object(url.searchParams).entries()).join('\n');

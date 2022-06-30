@@ -1,5 +1,5 @@
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
-import { emit } from "https://deno.land/x/emit/mod.ts";
+import { emit } from "https://deno.land/x/emit@0.2.0/mod.ts";
 
 // compose the file path relative to the location of this file
 const url = new URL("my-file.ts", import.meta.url);

@@ -9,7 +9,8 @@ Thjen you can add routes the following way
 
 ## How to 
 * To launch the example run:
-  `deno run --allow-net=:8000 --watch src/http-server-router/index.ts`
+  `deno run --allow-net=:8000 --allow-all --watch src/09-http-server-with-router/index.ts`
   This will open the http server accepting connections on port 8000
-  Navigate through `http://localhost:8000/api/users/:userid` to see the results.
+  Navigate through `http://localhost:8000/` to see the results.
+  Check also the url `http://localhost:8000/my-file.js` to see the bundled js file
 
